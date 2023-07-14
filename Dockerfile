@@ -1,4 +1,4 @@
-ARG DBT_CORE_VERSION=1.5.2
+ARG DBT_CORE_VERSION=latest
 FROM ghcr.io/dbt-labs/dbt-core:${DBT_CORE_VERSION}
 
 RUN set -ex \
